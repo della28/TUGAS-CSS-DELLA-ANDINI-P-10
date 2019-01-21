@@ -1,0 +1,602 @@
+body{
+  padding:0;
+}
+  div.menu{
+    width:100%;
+    background-color: #a30023;
+  }
+  div.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+  }
+  div.menu img{
+    width: 150px;
+    height: auto;
+  }
+  div.menu img:hover{background-color: #6b0101;
+  border-bottom: 2px solid #fff;}
+  div.menu ul li a{
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  div.menu ul li a:hover {
+    background-color: #6b0101;
+    border-bottom: 2px solid #fff;
+  }
+  div.header{
+    width: 100%;
+    height: 600px;
+    background: url("smk.jpg") no-repeat center;
+    background-size: cover;
+    float: left;
+  }
+  div.header h1{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    top: 260px; /* untuk mengatur jarak dari atas */
+    left: 450px; /* untuk mengatur jarak dari kiri */
+
+  }
+  div.gelap{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding:0;
+    background: #000;
+    opacity: 0.7;
+    float: left;
+  }
+  div.header h1 img{
+    width: 100px;
+    height: auto;
+  }
+  div.header h1 label{
+    font-size: 30px;
+  }
+  div.header h1 span{
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  div.about{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+  div.about .left{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    float: left;
+  }
+  div.about .left h1{
+    text-align: right;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: 15;
+    text-transform: uppercase;
+    border-right: 5px solid red;
+    padding-right: 20px;
+  }
+  div.about .left p{
+    text-align: right;
+    color: grey;
+    font-size: 30px;
+  }
+  div.about .right{
+    width: 50%;
+    height: 400px;
+    float: right;
+  }
+  div.about .right img{
+    width: 400px;
+    height: auto;
+    border: 10px solid #000;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  div.layanan{
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 60px;
+  }
+
+  div.layanan div.box{
+    width: 20%;
+    height: 350px;
+    margin: 20px;
+    float: left;
+  }
+
+  div.layanan div.box div.bunder{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  div.bunder span{
+    margin: auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  div.box .deskripsi{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  div.box .judul{
+    color: #8c0b0b;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  div.penghargaan{
+    width: 100%;
+    height: 600px;
+    float: left;
+    background: url("pakhendi.jpg") no-repeat center;
+    background-size: cover;
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  div.penghargaan .gelap{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: linear-gradient(to right, #000, #000, #000, transparent);
+  }
+
+  div.penghargaan .left{
+    width: 50%;
+    margin-top: 200px;
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    border-right: 10px solid red;
+    padding-right: 20px;
+    float: left;
+  }
+
+  div.penghargaan .left h1{
+    margin: 2px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+  }
+
+  div.penghargaan .left h2{
+    margin: 2px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: grey;
+  }
+
+  div.penghargaan .left h3{
+    margin: 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 10;
+  }
+
+  div.penghargaan .right{
+    height: auto;
+    float: right;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 700px;
+  }
+
+  div.program{
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: 100px;
+  }
+
+  div.program div.boxbox{
+    width: 100%;
+    height: 350px;
+    margin: 20px;
+    text-align: center;
+ }
+
+  div.program div.boxbox div.lingkaran{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  div.lingkaran span{
+    margin: auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  div.boxbox p{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  div.boxbox h2{
+    color: #8c0b0b;
+    font-size: 60px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  div.jurusan{
+    height: 500px;
+    background-position: center;
+    background: linear-gradient(white 300px, red 200px);
+    margin-top: 50px;
+    float: left;
+  }
+
+  div.jurusan .animasi{
+    width: 100%;
+    height: 450px;
+    margin-left: 80px;
+  }
+
+  div.animasi .left{
+    color: white;
+    text-align: center;
+    float: left;
+    font-family: arial;
+  }
+
+  div.animasi .right{
+    color: white;
+    text-align: center;
+    font-family: arial;
+  }
+
+  div.prestasi{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  div.prestasi .deskripsi{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    float: left;
+    margin-top: 100px;
+  }
+
+  div.prestasi .deskripsi h2{
+    text-align: left;
+    font-size: 50px;
+    margin-left: 100px;
+    font-family: sans-serif;
+    font-weight: 10;
+    text-transform: uppercase;
+    border-left: 5px solid red;
+    padding-left: 20px;
+  }
+
+  div.prestasi .deskripsi p{
+    text-align: left;
+    color: grey;
+    font-size: 20px;
+    margin-left: 100px;
+  }
+
+  div.prestasi .gampres{
+    width: 50%;
+    height: 400px;
+    float: right;
+  }
+  div.prestasi .gampres img{
+    width: 600px;
+    height: 500px;
+    border: 10px solid #000;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 5px;
+    float: right;
+    position: absolute;
+  }
+
+  div.bawah{
+    width: 100%;
+    height: 140px;
+    float: left;
+    background-color: red;
+  }
+
+  div.bawah .tulisan h3{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 100px;
+    color: #fff;
+    font-family: arial;
+    font-weight: 5;
+
+  }
+
+  div.paper{
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: 100px;
+  }
+
+  div.paper div.box2{
+    width: 100%;
+    height: 350px;
+    margin: 20px;
+    text-align: center;
+ }
+
+  div.paper div.box2 div.lingkar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  div.lingkar span{
+    margin: auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  div.box2 p{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  div.box2 h2{
+    color: #8c0b0b;
+    font-size: 60px;
+    font-weight: 10;
+    font-family: Tahoma;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  div.update{
+    width: 100%;
+    height: 250px;
+    float: left;
+    background: red;
+    position: relative;
+  }
+
+  div.update .centang{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    position: absolute;
+    left: 40px;
+    top: -50px;
+  }
+
+  div.update .centang span{
+    color: #fff;
+    margin: auto;
+    font-size: 50px;
+  }
+
+  div.update .left{
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+
+  div.update .left h1{
+    margin-top: 60px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+  }
+
+  div.update .left p{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 40px;
+  }
+
+  div.update .right .medsos{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 20px;
+    margin-top: 70px;
+    display: flex;
+    float: left;
+  }
+
+  div.update .right .medsos span{
+    font-size: 50px;
+    color: red;
+    margin: auto;
+  }
+
+  div.partner{
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: 100px;
+  }
+
+  div.partner div.part{
+    width: 100%;
+    height: 350px;
+    margin: 20px;
+    text-align: center;
+ }
+
+  div.partner div.part div.melingkar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  div.melingkar span{
+    margin: auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  div.part p{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  div.part h2{
+    color: #8c0b0b;
+    font-size: 60px;
+    font-weight: 10;
+    font-family: Tahoma;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  div.gmpart .ksgambr img{
+    float: left;
+    margin: 0 auto;
+    padding: 2px;
+    margin-left: 100px;
+    width: 15%;
+    height: 70px;
+  }
+
+  div.gmpart .ksgamb img{
+    float: left;
+    margin: 0 auto;
+    padding: 2px;
+    margin-left: 100px;
+    width: 15%;
+    height: 50px;
+    margin-top: 50px;
+  }
+
+  div.footer{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color: #222323;
+    margin-top: 70px;
+  }
+
+  div.footer .foo{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: grey;
+    float: left;
+    padding: 15px;
+  }
+
+  div.foo .berita h3{
+    color: white;
+  }
+
+  div.foo .lokasi h3{
+    color: white;
+  }
+
+
+
+  div.foo .instagram h3{
+    color: white;
+  }
+
+  div.foo .mediasos{
+    float: left;
+  }
+
+  div.foo .mediasos h3{
+    color: white;
+    margin-top: 1px;
+    margin-left: 20px;
+    float: left;
+  }
+
+  div.foo .mediasos .akun{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    padding: 5px;
+    margin-top: 30px;
+
+  }
+
+  div.foo .mediasos .akun span{
+    float: left;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  div.copy{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    float: left;
+  }
+
+  div.copy .left{
+    color: grey;
+    margin-left: 40px;
+    text-align: left;
+    float: left;
+  }
+
+  div.copy .right{
+    color: grey;
+    text-align: right;
+    margin-right: 40px;
+
+  }
